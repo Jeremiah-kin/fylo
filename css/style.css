@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: rgb(0, 166, 255);
+}
+
+#navbar div{
+    display: flex;
+    gap: 40px;
+}
+
+#navbar div a{
+    color: black;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+ }
+
+ #hero img{
+    width: 40%;
+ }
+
+ #hero div{
+    width: 45%;
+}
+ 
+#hero div h1{
+    font-size: 30px;
+}
+
+#hero div p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.inpu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.inpu .email{
+    display: block;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.inpu .button{ 
+    background-color: rgb(0, 0, 111);
+    color: #fff;
+    padding: 0 16px;
+    border: none;
+    height: 40px;
+}
+
+#hero2{
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#hero2 img{
+    width: 40%;
+}
+
+#hero2 div{
+    width: 40%;
+}
+
+ #hero2 div h1{
+    font-size: 30px;
+ }
+
+#hero2 div p{
+    font-size: 20px;
+}
+
+#section3{
+    padding:50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color:slategray;
+    color: #fff;
+}
+
+.section3Text{
+    width: 60%;
+}
+
+.inp input{
+    display: block;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.inp button{
+    background-color: rgb(0, 0, 111);
+    color: #fff;
+    padding: 5px 16px;
+    margin-top: 10px;
+    border: none;
+
+}
+#bottom{
+    background-color: rgb(25, 25, 82);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; 
+    
+}
+.phone{
+    display: flex;
+}
+.example{
+    display: flex;
+}
+#bottom{
+     display: flex;
+     font-size: 20px;
+     padding-left: 40px;
+     
+     
+
+    }
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .contactus{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .facebook{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .aboutus a{
+        color: white;
+    }
+    .contactus a{
+        color: white;
+    }
+    .facebook a{
+        color: white;
+
+    }
+    .iconimg a{
+        color: white;
+    }
+
+    
+
+
+    
+
+
+        
+    
+     
+     
+
+
+
+
+
+
