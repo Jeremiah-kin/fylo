@@ -137,9 +137,13 @@ a{
 }
 .phone{
     display: flex;
+    color: white;
+
 }
+
 .example{
     display: flex;
+    color: white;
 }
 #bottom{
      display: flex;
