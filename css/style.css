@@ -110,13 +110,17 @@ a{
 }
 
 .section3Text{
-    width: 60%;
+    width: 40%;
+}
+
+.inp{
+    width: 50%;
 }
 
 .inp input{
     display: block;
     height: 40px;
-    width: 300px;
+    width: 80%;
     padding-left: 10px;
 }
 
@@ -138,17 +142,22 @@ a{
 .phone{
     display: flex;
     color: white;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .example{
     display: flex;
     color: white;
+     align-items: center;
+     justify-content: center;
 }
 #bottom{
      display: flex;
-     font-size: 20px;
+     font-size: 17px;
      padding-left: 40px;
+     padding-right: 40px;
      
      
 
@@ -167,8 +176,8 @@ a{
         display: flex;
         flex-direction: column;
         
-        
     }
+
     .aboutus a{
         color: white;
     }
@@ -177,25 +186,69 @@ a{
     }
     .facebook a{
         color: white;
+        
+        
 
     }
     .iconimg a{
         color: white;
+      padding: 13px;
+      
+       
+        
     }
 
-    
+    @media screen and (max-width:992px) {
+        #hero, #hero2, #section3{
+            padding: 20px 30px;
+        }
+
+        #hero div, #hero img, #hero2 img{
+            margin-top: 20px;
+            width: 50%;
+        }
+        
+        
+
+       #hero div h1{
+        font-size: 22px;
+       }
+
+       #hero div p{
+        font-size: 18px;
+        
+
+        
+        
+       }
+      
+        
+       
+    }
+    @media screen and (max-width:768){
+        #hero2{
+            padding: 30px;
+        }
+        .phone{
+            font-size: ;
+        }
+            
+        }
 
 
-    
+
 
 
         
+        
     
-     
-     
+          
 
-
-
-
-
-
+            
+        
+            
+            
+        
+        
+    }
+    
