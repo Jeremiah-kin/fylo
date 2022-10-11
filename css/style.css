@@ -43,11 +43,13 @@ a{
  
 #hero div h1{
     font-size: 30px;
+
 }
 
 #hero div p {
-    font-size: 20px;
+    font-size: 16px;
     margin: 15px 0;
+    width: 85%;
 }
 
 .inpu{
@@ -74,11 +76,11 @@ a{
 }
 
 #hero2{
-    padding:20px 50px;
+    padding:80px 50px;
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    background-image: url(/images/bg-curve-desktop.svg);
+    background-color:azure;
     background-position: center;
     background-size: cover;
 
@@ -93,18 +95,17 @@ a{
 }
 
  #hero2 div h1{
-    font-size: 30px;
+    font-size: 23px;
  }
 
 #hero2 div p{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #section3{
     padding:50px;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
     background-color:slategray;
     color: #fff;
 }
@@ -152,6 +153,7 @@ a{
     color: white;
      align-items: center;
      justify-content: center;
+     padding-top: 10px;
 }
 #bottom{
      display: flex;
@@ -198,57 +200,93 @@ a{
         
     }
 
-    @media screen and (max-width:992px) {
-        #hero, #hero2, #section3{
-            padding: 20px 30px;
-        }
-
-        #hero div, #hero img, #hero2 img{
-            margin-top: 20px;
-            width: 50%;
-        }
-        
-        
-
-       #hero div h1{
-        font-size: 22px;
-       }
-
-       #hero div p{
-        font-size: 18px;
-        
-
-        
-        
-       }
-      
-        
-       
+@media screen and (max-width:992px) {
+    #hero, #section3{
+        padding: 20px 30px;
     }
-    @media screen and (max-width:768){
-        #hero2{
-            padding: 30px;
-        }
-        .phone{
-            font-size: ;
-        }
-            
-        }
 
-
-
-
-
-        
-        
+    #hero div, #hero img, #hero2 img{
+        margin-top: 20px;
+        width: 50%;
+    }
     
-          
+    #hero div h1{
+        font-size: 22px;
+    }
+
+    #hero div p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #hero img{
+        width: 60%;
+    }
+
+    #hero div h1{
+        font-size: 20px;
+        }   
+        
+        .section3Text, .inp{
+            width:80%;
+            margin-bottom: 2rem;
+            padding-right: 20px;
+        }
+        
+        
+        #hero2 div p{
+            font-size: 15px;
+        }
+
+        #bottom{
+            font-size: 13px;
+        }
+        
+        #hero div p{
+            font-size: 15px;
+        }
+        #hero2 div h1{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width:576px){
+        #hero{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #hero div, #hero img, #hero2 img,#hero2 div{
+            width: 90%;
+        }
+
+        #hero2{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #bottom{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+        }
+
+        #section3{
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+    
+            
+
+        
 
             
         
-            
-            
+      
+    
         
-        
-    }
     
